@@ -15,19 +15,10 @@ while True:
 logging.info(f"Creating project by name: {project_name}")
 
 list_of_files = [
-    ".github/workflows/.gitkeep",#to keep action files for checks
+    
     f"src/{project_name}/__init__.py",
-    f"tests/__init__.py",
-    f"tests/unit/__init__.py",
-    f"tests/integration/__init__.py",
-    "init_setup.sh",#to create a repo with env setup like conda envi setup
-    "requirements.txt",#main requirements
-    "requirements_dev.txt", #used for testing to keep pytest libraries
-    "setup.py", #To perform the basic setup
-    "pyproject.toml",
-    "setup.cfg",
-    "tox.ini"#to test the python package on various envs
-
+    
+    
 ]
 
 for filepath in list_of_files:

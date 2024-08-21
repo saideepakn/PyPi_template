@@ -5,10 +5,10 @@ with open("README.md", "r", encoding='utf-8') as f:
 
 __version__ = "0.0.0"
 
-REPO_NAME = "IPYNBrenderer"
-AUTHOR_USER_NAME = "saideepakn"
-SRC_REPO = "IPYNBrenderer"
-AUTHOR_EMAIL = "saideepaknamburu@gmail.com"
+REPO_NAME = "<YOUR REPO NAME>"
+AUTHOR_USER_NAME = "<YOUR USERNAME>"
+SRC_REPO = "<YOUR REPO NAME>"
+AUTHOR_EMAIL = "<YOUR EMAIL ID>"
 
 setuptools.setup(
     name=SRC_REPO,
@@ -23,18 +23,7 @@ setuptools.setup(
         #"Documentation": "https://github.com/saideepakn/IPYNBrenderer/tree/master/docs",
         #"Source Code": "https://github.com/saideepakn/IPYNBrenderer",
         "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
-        #"Development Status :: 3 - Alpha",
-        # "License :: OSI Approved :: MIT License",
-        # "Programming Language :: Python :: 3",
-        # "Programming Language :: Python :: 3.7",
-        # "Programming Language :: Python :: 3.8",
-        # "Programming Language :: Python :: 3.9",
-        # "Programming Language :: Python :: 3.10",
-        # "Topic :: Software Development :: Libraries :: Python Modules",
-        # "Topic :: Text Processing :: Markup :: Markdown",
-        # "Intended Audience :: Developers",
-        # "Operating System :: OS Independent",
-        # "Natural Language
+
     },
     package_dir = {"": "src"},
     packages = setuptools.find_packages(where = "src"),
